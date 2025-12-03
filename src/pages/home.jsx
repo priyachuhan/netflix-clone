@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Row from "../components/Row";
 
-const API_KEY = "607f4f97d1781a839e5295c2c441cea8";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const Home = () => {
   return (
